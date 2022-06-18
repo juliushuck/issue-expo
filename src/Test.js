@@ -1,7 +1,17 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 
 const Test = () => {
-    return <Text>Test from comp</Text>;
+    return (
+        <View
+            style={{
+                alignItems: "center",
+                height: "100%",
+                justifyContent: "center",
+            }}
+        >
+            <Text>Test Component</Text>
+        </View>
+    );
 };
 
 export { Test };
